@@ -1,0 +1,9 @@
+{
+  "services": [
+    {"name": "order-service", "depends_on": ["payment-service", "inventory-service"], "deploy_count": 12},
+    {"name": "payment-service", "depends_on": ["notification-service"], "deploy_count": 10},
+    {"name": "inventory-service", "depends_on": [], "deploy_count": 8},
+    {"name": "notification-service", "depends_on": [], "deploy_count": 2},
+    {"name": "legacy-report", "depends_on": [], "deploy_count": 1}
+  ]
+}

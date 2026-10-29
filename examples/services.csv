@@ -1,0 +1,6 @@
+service,depends_on,deploy_count
+order-service,payment-service|inventory-service,12
+payment-service,notification-service,10
+inventory-service,,8
+notification-service,,2
+legacy-report,,1
