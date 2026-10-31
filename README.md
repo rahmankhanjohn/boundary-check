@@ -2,6 +2,7 @@
 
 ![Tests](https://github.com/rahmankhanjohn/boundary-check/actions/workflows/test.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/rahmankhanjohn/badge.svg)
 ![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)
 ![Dependencies: 0](https://img.shields.io/badge/dependencies-0-brightgreen.svg)
 ![Tests: 8](https://img.shields.io/badge/tests-8%20passing-brightgreen.svg)
@@ -48,6 +49,10 @@ payment,,8
 - 0: no errors
 - 1: errors found (circular dependencies)
 - 2: bad path
+
+## Recognition
+
+Indexed on the [XERJ Corpus Hub](https://hub.xerj.org/contributors/rahmankhanjohn) - the open reference memory AI coding agents search before they write code.
 
 ## Requirements
 
